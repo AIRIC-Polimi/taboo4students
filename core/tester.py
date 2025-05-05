@@ -107,7 +107,7 @@ def compute_score(results_by_level: dict) -> float:
 
     for level, results in results_by_level.items():
         # TODO: implement some proper scoring logic (e.g., do we want to weight levels differently, or treat incorrect answers and runtime errors in a different way?)
-        score += results["correct"] * sqrt(level)
+        score += results["correct"] * pow(level, 1/3)
 
     return round(score, 1)
 

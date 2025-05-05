@@ -68,7 +68,7 @@ Il gioco è strutturato in diversi livelli, ciascuno con regole aggiuntive:
 Al termine della challenge, le soluzioni sottomesse (i.e., le implementazioni di `Agent` fornite da ciascun team, sotto forma di un singolo file python) verranno testate utilizzando lo script `scripts/test_solutions.py` (lo stesso che i partecipanti possono utilizzare localmente per testare la propria soluzione), il quale contiene il seguente meccanismo di scoring:
 
 - un punto per ciascuna risposta corretta (i.e., tale per cui il *guesser* fornisce come risposta esattamente la parola da indovinare, carattere per carattere), per andare a costituire il punteggio totale per ciascun livello
-- il punteggio totale di ciascun livello viene poi moltiplicato per il valore del livello stesso (calcolato come la radice quadrata del numero corrispondente al livello, quindi ad esempio `1` per il livello 1, `1.41` per il livello 2, e così via)
+- il punteggio totale di ciascun livello viene poi moltiplicato per il valore del livello stesso (calcolato come la radice cubica del numero corrispondente al livello, quindi ad esempio `1` per il livello 1, `1.2599` per il livello 2, e così via)
 - i punti ottenuti nei vari livelli vengono sommati, il risultato viene utilizzato per ordinare le soluzioni e formare la classifica
 
 ## Configurazione
