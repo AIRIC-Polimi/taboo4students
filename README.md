@@ -85,7 +85,7 @@ A prescindere dal metodo scelto per la configurazione, per verificare che tutto 
 
 ### GitHub Codespaces
 
-Per utilizzare GitHub Codespaces, è sufficiente cliccare [questo link](https://codespaces.new/AIRIC-Polimi/taboo?quickstart=1) (lo stesso contenuto nel badge all'inizio del README) e attendere che la configurazione automatica venga completata (la prima volta ci mette qualche minuto, eventuali restart successivi sono molto più veloci).
+Per utilizzare GitHub Codespaces, è sufficiente cliccare [questo link](https://codespaces.new/AIRIC-Polimi/taboo4students?quickstart=1) (lo stesso contenuto nel badge all'inizio del README) e attendere che la configurazione automatica venga completata (la prima volta ci mette qualche minuto, eventuali restart successivi sono molto più veloci).
 
 ### Setup automatico tramite script
 
@@ -93,12 +93,12 @@ Per scaricare e configurare automaticamente il repository in locale utilizzando 
 
 Linux e macOS:
 ```
-python3 <(curl -sSL https://raw.githubusercontent.com/AIRIC-Polimi/taboo/refs/heads/main/scripts/repo_setup.py)
+python3 <(curl -sSL https://raw.githubusercontent.com/AIRIC-Polimi/taboo4students/refs/heads/main/scripts/repo_setup.py)
 ```
 
 Windows:
 ```
-powershell -ExecutionPolicy ByPass -c "irm https://raw.githubusercontent.com/AIRIC-Polimi/taboo/refs/heads/main/scripts/repo_setup.py | python - --output C:/INSERT/HERE/PATH/TO/CLONE/REPO --api-key INSERT_HERE_API_KEY"
+powershell -ExecutionPolicy ByPass -c "irm https://raw.githubusercontent.com/AIRIC-Polimi/taboo4students/refs/heads/main/scripts/repo_setup.py | python - --output C:/INSERT/HERE/PATH/TO/CLONE/REPO --api-key INSERT_HERE_API_KEY"
 ```
 
 Attiva l'ambiente virtuale appena creato con il seguente comando (varia a seconda del sistema operativo usato):
@@ -125,10 +125,10 @@ Segui questi passaggi per clonare e configurare manualmente il progetto in local
    - Scarica o clona la repository da GitHub. Per clonare la repository, usa il comando:
      
      ```bash
-     git clone https://github.com/AIRIC-Polimi/taboo.git PATH/TO/WHERE/YOU/WANT/TO/CLONE
+     git clone https://github.com/AIRIC-Polimi/taboo4students.git PATH/TO/WHERE/YOU/WANT/TO/CLONE
      ```
 
-     Se invece preferisci scaricare la repository in formato ZIP, [clicca qui](https://github.com/AIRIC-Polimi/taboo/archive/refs/heads/main.zip).
+     Se invece preferisci scaricare la repository in formato ZIP, [clicca qui](https://github.com/AIRIC-Polimi/taboo4students/archive/refs/heads/main.zip).
 
 2. **Aprire il progetto**
    - Apri il progetto nel tuo editor di scelta (è consigliato Visual Studio Code).
