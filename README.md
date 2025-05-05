@@ -1,6 +1,6 @@
 # AIRIC Taboo Challenge
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/AIRIC-Polimi/taboo?quickstart=1)
+[![Apri in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/AIRIC-Polimi/taboo4students?quickstart=1)
 
 ## Regole del gioco
 
