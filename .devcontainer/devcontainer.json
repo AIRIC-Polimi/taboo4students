@@ -1,0 +1,19 @@
+{
+  "image": "python:3.12",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "python.venvPath": "${workspaceFolder}/.venv-taboo"
+      },
+      "extensions": [
+        "ms-python.python"
+      ]
+    }
+  },
+  "secrets": {
+    "AZURE_OPENAI_API_KEY": {
+      "description": "The Azure OpenAI API KEY provided by the organizers."
+    }
+  },
+  "postCreateCommand": "python scripts/repo_setup.py --api-key $AZURE_OPENAI_API_KEY"
+}

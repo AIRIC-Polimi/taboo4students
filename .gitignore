@@ -1,0 +1,6 @@
+__pycache__
+env-taboo/
+.env
+*.venv
+.venv-taboo
+taboo.egg-info

@@ -1,0 +1,10 @@
+Gatto: Felino, Miao, Zampa, Domestico
+Ufficio: Lavoro, Scrivania, Computer, Colleghi
+Sole: Caldo, Giallo, Cielo, Estate
+Scarpa: Piede, Lacci, Tacco, Calzatura
+Letto: Dormire, Materasso, Cuscino, Camera
+Occhiali: Vista, Lenti, Sole, Montatura
+Telefono: Cellulare, Chiamata, Numero, Smartphone
+Sedia: Sedersi, Gambe, Schienale, Tavolo
+Allergia: Reazione, Polline, Sintomi, Naso
+Finestra: Vetro, Casa, Tenda, Aprire
